@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to right,rgb(221, 59, 10),rgb(230, 146, 38));
+    width: 100%;
+}
+
+.bulb{
+    width: 50%;
+    font-size: 50px;
+    color: rgb(20, 6, 58);
+    margin-left: 7.5em;
+      
+}
+
+#myImage {
+    /* margin-left: 18em; */
+    border: none;
+    box-shadow: 3px 4px rgb(15, 12, 12);
+}
+.control{
+    display: flex;
+    margin: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 2.5em;
+    width: 50%;
+    justify-content: space-between;
+      background-image: linear-gradient(to right,rgb(231, 209, 109),rgb(212, 92, 22));
+    
+}
+
+.on ,.off {
+    
+  
+    border: none;
+   
+    padding: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 24px;
+    border-radius: 6px;
+ 
+}
+
+.on{
+  background-color: rgb(230, 197, 14);
+   color: rgb(17, 10, 10);
+}
+
+.off{
+  background-color: rgb(7, 7, 3);
+   color: rgb(236, 229, 229);
+}
